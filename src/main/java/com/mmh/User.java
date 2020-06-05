@@ -8,6 +8,15 @@ public class User {
     private Integer userId;
     private String userName;
     private Integer age;
+    private String englishName;
+
+    public String getEnglishName() {
+        return englishName;
+    }
+
+    public void setEnglishName(String englishName) {
+        this.englishName = englishName;
+    }
 
     public Integer getAge() {
         return age;
