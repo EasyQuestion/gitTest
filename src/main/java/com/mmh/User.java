@@ -7,6 +7,15 @@ package com.mmh;
 public class User {
     private Integer userId;
     private String userName;
+    private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     public Integer getUserId() {
         return userId;
