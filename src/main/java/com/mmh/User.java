@@ -8,14 +8,14 @@ public class User {
     private Integer userId;
     private String userName;
     private Integer age;
-    private String englishName;
+    private String cnName;
 
-    public String getEnglishName() {
-        return englishName;
+    public String getCnName() {
+        return cnName;
     }
 
-    public void setEnglishName(String englishName) {
-        this.englishName = englishName;
+    public void setCnName(String cnName) {
+        this.cnName = cnName;
     }
 
     public Integer getAge() {
