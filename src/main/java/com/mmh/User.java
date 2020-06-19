@@ -9,6 +9,15 @@ public class User {
     private String userName;
     private Integer age;
     private String englishName;
+    private String test;
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
+    }
 
     public String getEnglishName() {
         return englishName;
